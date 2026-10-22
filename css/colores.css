@@ -1,0 +1,73 @@
+/* colores.css - Paleta de colores representativa de la IA */
+
+
+
+/* Clases de utilidad para implementar rápidamente */
+
+.ai-theme-body {
+background-color: var(--ai-bg-dark);
+color: var(--ai-text-main);
+font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.ai-card {
+background-color: var(--ai-bg-panel);
+border: 1px solid var(--ai-border);
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.ai-card:hover {
+box-shadow: var(--ai-glow);
+transform: translateY(-2px);
+}
+
+.ai-text-primary {
+color: var(--ai-primary);
+text-shadow: 0 0 5px rgba(0, 240, 255, 0.3);
+}
+
+.ai-text-secondary {
+color: var(--ai-secondary);
+}
+
+.ai-bg-gradient {
+background: linear-gradient(135deg, var(--ai-bg-dark), var(--ai-bg-panel));
+}
+
+.ai-button {
+background: linear-gradient(45deg, var(--ai-secondary), var(--ai-primary));
+color: #ffffff;
+border: none;
+padding: 10px 24px;
+border-radius: 6px;
+font-weight: bold;
+cursor: pointer;
+text-transform: uppercase;
+letter-spacing: 1px;
+transition: all 0.3s ease;
+}
+
+.ai-button:hover {
+box-shadow: var(--ai-glow);
+filter: brightness(1.2);
+}
+
+.ai-input {
+background-color: rgba(21, 28, 47, 0.8);
+border: 1px solid var(--ai-border);
+color: var(--ai-primary);
+padding: 10px 15px;
+border-radius: 6px;
+outline: none;
+transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ai-input:focus {
+border-color: var(--ai-primary);
+box-shadow: 0 0 8px rgba(0, 240, 255, 0.4);
+}
